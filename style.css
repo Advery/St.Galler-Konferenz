@@ -74,6 +74,41 @@ h1::before {
     right: 0;
     top: 50%;
 }
+
+.uebertitel {
+  margin: 0 0 16rem 0;
+}
+
+h2 {
+  font-size: 10rem;
+  font-weight: 700;
+  display: table;
+  margin: 0;
+  position: relative;
+}
+ h2::after {
+   content: "";
+    display: table-cell;
+    width: 100%;
+    background-image: linear-gradient(to right, #003E57 100%, transparent 0%);
+    background-position: 0 50%;
+    background-repeat: repeat-x;
+    background-size: 1rem 1.5rem;
+ }
+ h2::after{
+   border-left: 6rem solid #FCCC97;
+ }
+
+ h2::before {
+    content: "";
+    position: absolute;
+    background-color: #003E57;
+    width: 1.5rem;
+    height: 50%;
+    right: 0;
+    top: 50%;
+ }
+
 p {
   font-size: 2.7rem;
   line-height: 3.7rem;
@@ -172,6 +207,26 @@ a.uk-button:hover {
   padding: 1.6rem 2.2rem;
 }
 
+/**** Programm ****/
+ .programm-punkt:first-child {
+   padding: 8rem 0 0 0;
+ }
+.programm-punkt {
+  display: flex;
+  max-width: 111.1rem;
+}
+.programm-zeit {
+  margin: 0 17.2rem 0 0;
+}
+.programm-zeit p{
+  min-width: 15rem;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.programm-beschreibung {
+  margin: 0 9rem 0 0;
+}
 
 /**** Footer ****/
 footer {
