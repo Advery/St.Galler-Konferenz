@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* Farben
+beige
+#FCCC97
+dunkelblau
+#003E57
+*/
+
+:root {
+    font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #003E57;
+}
+
+.page-wrapper {
+  background-color: #FCCC97;
+  height: calc(100% - 10rem);
+  margin: 5rem 5rem 0 5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'DM Sans', sans-serif;
+  color: #003E57;
+}
+h1 {
+  font-size: 15rem;
+  font-weight: 700;
+  display: table;
+  margin: 0;
+  position: relative;
+}
+h3 {
+  font-size: 6rem;
+  line-height: 7.5rem;
+  font-weight: 500;
+  margin: 5.6rem 0;
+}
+h4 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+h4.zwischentitel {
+
+}
+h4:first-of-type {
+  margin-top: 3.3rem;
+}
+h1::after {
+    border-left: 6rem solid #FCCC97;
+}
+h1::after {
+    content: "";
+    display: table-cell;
+    width: 100%;
+    background-image: linear-gradient(to right, #003E57 100%, transparent 0%);
+    background-position: 0 50%;
+    background-repeat: repeat-x;
+    background-size: 1rem 1.5rem;
+}
+h1::before {
+    content: "";
+    position: absolute;
+    background-color: #003E57;
+    width: 1.5rem;
+    height: 50%;
+    right: 0;
+    top: 50%;
+}
+p {
+  font-size: 2.7rem;
+  line-height: 3.7rem;
+  margin-bottom: 3.9rem;
+}
+p a {
+  color: rgba(0, 62, 87, 1);
+  border-bottom: 0.3rem solid rgba(0, 62, 87, 1);
+  padding-bottom: 0.6rem;
+  transition: all 0.3s ease-out;
+}
+p a:hover {
+  text-decoration: none;
+  color: rgba(0, 62, 87, 0.7);
+  border-bottom: 0.3rem solid rgba(0, 62, 87, 0.7);
+}
+
+.abschlusslinie {
+  height: 7rem;
+  border-left: 1.5rem solid #003E57;
+  border-bottom: 1.5rem solid #003E57;
+  border-right: 1.5rem solid #003E57;
+}
+.hand-container {
+  position: absolute;
+  top:50rem;
+  right: 0;
+  z-index: 10;
+  max-width: 50%;
+}
+
+
+/**** Layout ****/
+.uk-padding-large.div-title {
+  padding: 9rem 9rem 0 9rem;
+}
+.uk-padding-large.div-content {
+  padding: 0 9rem 9rem 9rem;
+}
+.uk-padding-large.div-content > div {
+  border-right: 1.5rem solid #003E57;
+}
+.hauptspalte {
+  width: 78rem;
+  padding-bottom: 5.5rem;
+}
+
+
+/**** Accordion ****/
+.uk-accordion-title, .uk-accordion-title:hover, .uk-accordion-title:active, .uk-accordion-title:focus {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #003E57;
+  text-align: right;
+  border-bottom: 0.3rem solid #003E57;
+  padding-bottom: 0.6rem;
+}
+.uk-accordion-title::before {
+    content: "";
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 1rem;
+    float: right;
+    background-image: url("../svg/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.uk-open > .uk-accordion-title::before {
+    background-image: url("../svg/arrow-up.svg");
+}
+.uk-accordion {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 5.5rem;
+}
+.uk-accordion-content {
+    margin-top: 0;
+}
+
+/**** Buttons ****/
+a.uk-button {
+  margin-top: 3rem;
+  border: none;
+}
+a.uk-button:hover {
+  border: none;
+  background-color: rgba(0, 62, 87, 0.7);
+}
+.uk-button-primary {
+  background-color: #003E57;
+  font-size: 2.7rem;
+  text-transform: none;
+  font-weight: 400;
+}
+.uk-button-large {
+  padding: 1.6rem 2.2rem;
+}
