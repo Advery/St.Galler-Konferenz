@@ -218,7 +218,7 @@ a.uk-button:hover {
  }
 .programm-punkt {
   display: flex;
-  max-width: 111.1rem;
+  max-width: 111rem;
 margin-bottom: 4.5rem;
 }
 .programm-zeit {
@@ -244,12 +244,12 @@ margin-bottom: 0;
  .referenten:last-child {
    margin: 0;
  }
-
 .referenten {
-  display: flex;
-  max-width: 111.1rem;
-  border-bottom: 3px solid #003E57;
-  padding: 6.8rem 0 0 0;
+    display: flex;
+    max-width: 111rem;
+    border-bottom: 3px solid #003E57;
+    padding: 0 0 1.8rem 0;
+    margin: 5.7rem 0 0 0;
 }
 
 .referenten-name {
