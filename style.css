@@ -131,6 +131,9 @@ p a:hover {
   color: rgba(0, 62, 87, 0.7);
   border-bottom: 0.3rem solid rgba(0, 62, 87, 0.7);
 }
+.bild-rund {
+border-radius: 50%;
+}
 
 .abschlusslinie {
   height: 7rem;
