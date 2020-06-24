@@ -50,6 +50,9 @@ h4 {
 h4.zwischentitel {
 
 }
+h4 i {
+font-weight: 500;
+}
 h4:first-of-type {
   margin-top: 3.3rem;
 }
