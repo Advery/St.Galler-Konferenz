@@ -220,14 +220,18 @@ a.uk-button:hover {
   max-width: 111.1rem;
 }
 .programm-zeit {
-  width: 32%;
+  width: 33%;
+	margin-right: 1.5rem;
 }
 .programm-zeit p{
   font-weight: bold;
 }
 .programm-beschreibung {
   margin: 0;
-	width: 68%;
+	width: calc(67% - 1.5rem);
+}
+.programm-zeit p, .programm-beschreibung p {
+margin-bottom: 0;
 }
 
 /**** Footer ****/
