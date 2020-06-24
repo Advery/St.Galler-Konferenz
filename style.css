@@ -277,6 +277,9 @@ width: calc(67% + 1.5rem);
 .referenten-name p, .referenten-beschreibung p {
 margin-bottom: 0;
 }
+.referenten-beschreibung.abstand p {
+margin-bottom: 3.9rem;
+}
 .ohnelinie {
 border-bottom: none;
 }
