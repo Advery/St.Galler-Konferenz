@@ -213,11 +213,12 @@ a.uk-button:hover {
 
 /**** Programm ****/
  .programm-punkt:first-child {
-   padding: 8rem 0 0 0;
+   margin-top:2.7rem;
  }
 .programm-punkt {
   display: flex;
   max-width: 111.1rem;
+	margin-bottom: 0.5rem;
 }
 .programm-zeit {
   width: 33%;
