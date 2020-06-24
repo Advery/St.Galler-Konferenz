@@ -219,7 +219,7 @@ a.uk-button:hover {
 .programm-punkt {
   display: flex;
   max-width: 111.1rem;
-	margin-bottom: 4.5rem;
+margin-bottom: 4.5rem;
 }
 .programm-zeit {
   width: calc(33% - 3rem);
@@ -238,11 +238,11 @@ margin-bottom: 0;
 
 /**** Referenten ****/
 .referenten:first-child {
-   margin: 0 0 8.2rem 0;
+   margin: 0;
  }
 
  .referenten:last-child {
-   margin: 0 0 8.2rem 0;
+   margin: 0;
  }
 
 .referenten {
@@ -253,27 +253,18 @@ margin-bottom: 0;
 }
 
 .referenten-name {
-  margin: 0 9.3rem 0 0;
-  min-width: 23.8rem;
+  width: calc(33% - 3rem);
+margin-right: 1.5rem;
 }
 
 .referenten-name p{
-  width: 100%;
   font-weight: bold;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin: 0 0 2.5rem 0;
-  line-break: auto;
 }
 .referenten-beschreibung {
-  margin: 0 9rem 0 0;
-  min-width: 75rem;
+  margin: 0;
+width: 67%;
 }
 
-.referenten-beschreibung p{
-  margin: 0 0 2.5rem 0;
-  width: 100%;
-}
 
 /**** Footer ****/
 footer {
