@@ -221,7 +221,7 @@ a.uk-button:hover {
 	margin-bottom: 4.5rem;
 }
 .programm-zeit {
-  width: 33%;
+  width: calc(67% - 1.5rem);
 	margin-right: 1.5rem;
 }
 .programm-zeit p{
@@ -229,7 +229,7 @@ a.uk-button:hover {
 }
 .programm-beschreibung {
   margin: 0;
-	width: calc(67% - 1.5rem);
+width: 67%;
 }
 .programm-zeit p, .programm-beschreibung p {
 margin-bottom: 0;
