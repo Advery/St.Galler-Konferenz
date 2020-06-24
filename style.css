@@ -155,6 +155,9 @@ p a:hover {
   width: 78rem;
   padding-bottom: 5.5rem;
 }
+.hauptspalte-breit {
+width: 108rem;
+}
 
 
 /**** Accordion ****/
