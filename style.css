@@ -157,7 +157,7 @@ p a:hover {
   padding-bottom: 5.5rem;
 }
 .hauptspalte-breit {
-width: 110rem;
+width: 111rem;
 padding-bottom: 5.5rem;
 }
 
@@ -192,6 +192,9 @@ padding-bottom: 5.5rem;
 .uk-accordion-content {
     margin-top: 0;
 }
+li.uk-open .uk-accordion-title {
+	color: transparent;
+}
 
 /**** Buttons ****/
 a.uk-button {
@@ -218,7 +221,7 @@ a.uk-button:hover {
  }
 .programm-punkt {
 display: flex;
-width: 111rem;
+width: 100%;
 margin-bottom: 4.5rem;
 }
 .programm-zeit {
@@ -242,7 +245,7 @@ margin-bottom: 0;
  }
 .referenten {
     display: flex;
-    width: 111rem;
+    width: 100%;
     border-bottom: 3px solid #003E57;
     padding: 0 0 1.8rem 0;
     margin: 5.7rem 0 0 0;
