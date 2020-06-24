@@ -195,6 +195,9 @@ padding-bottom: 5.5rem;
 li.uk-open .uk-accordion-title {
 	color: transparent;
 }
+.uk-accordion-content > :last-child {
+    margin-bottom: 3.9rem;
+}
 
 /**** Buttons ****/
 a.uk-button {
