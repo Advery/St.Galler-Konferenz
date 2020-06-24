@@ -272,12 +272,14 @@ margin-right: 1.5rem;
 }
 .referenten-beschreibung {
   margin: 0;
-width: 67%;
+width: calc(67% + 1.5rem);
 }
 .referenten-name p, .referenten-beschreibung p {
 margin-bottom: 0;
 }
-
+.ohnelinie {
+border-bottom: none;
+}
 
 /**** Footer ****/
 footer {
