@@ -85,6 +85,7 @@ h2 {
   display: table;
   margin: 0;
   position: relative;
+white-space: nowrap;
 }
  h2::after {
    content: "";
@@ -233,6 +234,45 @@ width: 67%;
 }
 .programm-zeit p, .programm-beschreibung p {
 margin-bottom: 0;
+}
+
+/**** Referenten ****/
+.referenten:first-child {
+   margin: 0 0 8.2rem 0;
+ }
+
+ .referenten:last-child {
+   margin: 0 0 8.2rem 0;
+ }
+
+.referenten {
+  display: flex;
+  max-width: 111.1rem;
+  border-bottom: 3px solid #003E57;
+  padding: 6.8rem 0 0 0;
+}
+
+.referenten-name {
+  margin: 0 9.3rem 0 0;
+  min-width: 23.8rem;
+}
+
+.referenten-name p{
+  width: 100%;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 0 2.5rem 0;
+  line-break: auto;
+}
+.referenten-beschreibung {
+  margin: 0 9rem 0 0;
+  min-width: 75rem;
+}
+
+.referenten-beschreibung p{
+  margin: 0 0 2.5rem 0;
+  width: 100%;
 }
 
 /**** Footer ****/
