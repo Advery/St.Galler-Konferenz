@@ -194,6 +194,8 @@ border-radius: 50%;
 
 .uk-navbar-item > a {
 	text-decoration: none;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 500;
 }
 
 .uk-navbar-item > a:hover {
