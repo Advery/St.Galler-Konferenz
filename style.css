@@ -197,7 +197,7 @@ border-radius: 50%;
 }
 
 .uk-navbar-item > a:hover {
-	text-decoration: none;
+	color: #003E57;
 }
 
 .uk-navbar-toggle{
