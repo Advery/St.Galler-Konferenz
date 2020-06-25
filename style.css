@@ -209,6 +209,10 @@ border-radius: 50%;
 	padding: 1.5rem 0;
 }
 
+.uk-nav > li > a.active {
+	color: #FCCC97;
+}
+
 
 /**** Layout ****/
 .uk-padding-large.div-title {
