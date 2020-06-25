@@ -190,6 +190,9 @@ border-radius: 50%;
 
 .uk-navbar-item {
     color: #003e57;
+}
+
+.uk-navbar-item > a {
 	text-decoration: none;
 }
 
