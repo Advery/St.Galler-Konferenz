@@ -190,6 +190,7 @@ border-radius: 50%;
 
 .uk-navbar-item {
     color: #003e57;
+	text-decoration: none;
 }
 
 .uk-navbar-toggle{
