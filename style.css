@@ -450,6 +450,7 @@ a.uk-button-default:hover {
 	.page-wrapper {
 		margin: 0.2rem;
 		width: 100%;
+		display: inline-block;
 	}
 	.div-title {
 	 	width: 100%;
@@ -486,7 +487,10 @@ a.uk-button-default:hover {
 		margin: 0!important;
 		padding: 0!important;
 	}
-		h1 {
+	.uk-grid {
+		border: none;
+	}
+	h1 {
 		font-size: 3.5rem;
 		line-height: normal;
 		width: 100%;
