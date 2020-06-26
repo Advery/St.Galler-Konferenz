@@ -157,6 +157,10 @@ border-radius: 50%;
 }
 
 /*** Navigation ***/
+.uk-padding-large.div-nav {
+  padding: 9rem 9rem 0 9rem;
+}
+
 .uk-navbar-item{
 	font-size: 3.5rem;
 }
