@@ -611,23 +611,21 @@ a.uk-button-default:hover {
 	footer a {
 		margin: 0;
 	}
-	footer .uk-grid .uk-first-column {
+	footer .uk-grid .uk-first-column:first-child {
    		margin: 0 0 2rem 0;
 	}
 	footer .uk-grid .uk-first-column span {
 		font-size: 1.5rem;
 	}
-	footer .uk-grid .uk-first-column:first-child {
-		margin: 0 0 1rem 0;
-	}
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
 		flex-direction: row;
-		margin: 1rem 0 0 0;
+		margin: 0 0 2rem 0;
 	}
 	footer .uk-grid .uk-first-column:nth-child(4) {
-	    display: flex;
-	    flex-direction: column;
+		display: flex;
+		flex-direction: column;
+		margin: 0 0 2rem 0;
 	}
 	footer .uk-grid .uk-first-column:last-child a:first-child {
 		margin: 0 1.5rem 0 0;
