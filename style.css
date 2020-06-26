@@ -504,7 +504,7 @@ a.uk-button-default:hover {
 	    margin: 0;
 	    padding: 0 1.5rem 2.5rem 1.5rem !important;
 	}
-	.uk-container-expand:second-child {
+	.page-wrapper div:nth-child(3) {
 	    width: 100%;
 	    margin: 0;
 	    padding: 0 1.5rem 0 1.5rem!important;
