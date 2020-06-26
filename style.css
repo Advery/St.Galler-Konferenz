@@ -548,6 +548,17 @@ a.uk-button-default:hover {
 		margin: 0!important;
 		padding: 0!important;
 	}
+	.hauptspalte .uk-accordion {
+		margin-bottom: 0;
+	}
+	.uk-accordion-title {
+		font-size: 1.2rem;
+		font-weight: 500;
+		color: #003E57;
+		text-align: right;
+		border-bottom: 0.1rem solid #003E57;
+		padding-bottom: 0.25rem;
+	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
 		width: 100%;
