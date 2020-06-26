@@ -573,6 +573,10 @@ a.uk-button-default:hover {
     		padding-right: 0rem;
 		max-width: 4rem;
 	}
+	.uk-offcanvas-close {
+    		margin-top: 0rem;
+    		margin-right: 0rem;
+	}
 	.uk-accordion-title {
 		font-size: 1.2rem;
 		font-weight: 500;
