@@ -559,6 +559,9 @@ a.uk-button-default:hover {
 		border-bottom: 0.1rem solid #003E57;
 		padding-bottom: 0.25rem;
 	}
+	.uk-padding-large.div-content > div {
+    		border-right: none;
+	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
 		width: 100%;
