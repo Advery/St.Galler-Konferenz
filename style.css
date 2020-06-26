@@ -403,11 +403,7 @@ input.invalid {
 }
 
 /**** Form Style ****/
-[type="radio"]:checked,
-[type="radio"]:not(:checked) {
-    position: absolute;
-    left: -9999px;
-}
+
 [type="radio"]:checked + label,
 [type="radio"]:not(:checked) + label
 {
