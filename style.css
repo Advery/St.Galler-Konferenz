@@ -495,9 +495,9 @@ a.uk-button-default:hover {
 		padding: 0!important;
 	}
 	.uk-container-expand {
-		width: 100%;
-		margin: 0;
-		padding: 0 1.5rem!important;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0 1.5rem 1.5rem 1.5rem !important;
 	}
 	.uk-padding-large {
 		width: 100%;
@@ -564,6 +564,8 @@ a.uk-button-default:hover {
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 2.5rem
 	}
 	footer .uk-grid .uk-first-column a {
 		font-size: 1.2rem;
@@ -575,8 +577,5 @@ a.uk-button-default:hover {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	}
-	footer .uk-grid .uk-first-column a:first-child {
-		margin-right: 2.5rem
 	}
 }
