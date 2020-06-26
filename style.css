@@ -610,14 +610,14 @@ a.uk-button-default:hover {
 	footer a {
 		margin: 0;
 	}
+	footer .uk-grid .uk-first-column {
+   		margin: 0 0 2rem 0;
+	}
 	footer .uk-grid .uk-first-column span {
 		font-size: 1.5rem;
 	}
 	footer .uk-grid .uk-first-column:first-child {
 		margin: 0 0 1rem 0;
-	}
-	footer .uk-grid .uk-first-column {
-		margin: 0;
 	}
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
