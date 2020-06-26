@@ -451,4 +451,8 @@ a.uk-button-default:hover {
 	h1::after {
 		display: none;
 	}
+	.page-wrapper {
+	margin: 0.2rem;
+	width: 100vw;
+	}
 }
