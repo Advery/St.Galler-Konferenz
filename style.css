@@ -475,67 +475,67 @@ a.uk-button-default:hover {
 	}
 	.div-content {
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
-		border: none!important;
+		margin: 0;
+		padding: 0;
+		border-right: none;
 	}
 	.uk-container {
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	.uk-container-expand {
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 1.5rem;
 	}
 	.uk-padding-large {
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	.uk-padding-large {
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	.hauptspalte {
 		width: 100%;
-		margin: 0!important;
+		margin: 0;
 		padding: 0 1.5rem;
 		display: inline-block;
 	}
 	.uk-grid {
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	h1 {
 		font-size: 3.5rem;
 		line-height: normal;
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	h3 {
 		font-size: 1.6rem;
 		line-height: normal;
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	h4 {
 		font-size: 1rem;
 		line-height: normal;
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 	p {
 		font-size: 0.8rem;
 		line-height: normal;
 		width: 100%;
-		margin: 0!important;
-		padding: 0!important;
+		margin: 0;
+		padding: 0;
 	}
 }
