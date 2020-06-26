@@ -412,7 +412,14 @@ label {
 	font-size: 2.7rem;
 }
 .nextbtn::after {
-background-image: url("../svg/arrow-up.svg");
+    content: "";
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 1rem;
+    float: right;
+    background-image: url("../svg/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 /**** Footer ****/
