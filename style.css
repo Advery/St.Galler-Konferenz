@@ -208,7 +208,8 @@ border-radius: 50%;
 }
 
 .uk-navbar-toggle{
-    color: #003e57;
+	padding: 0;
+    	color: #003e57;
 }
 
 .uk-offcanvas-bar .uk-nav-default > li > a{
