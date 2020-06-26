@@ -404,14 +404,15 @@ input.invalid {
 }
 
 /**** Form Style ****/
-
 [type="radio"] {
     width: 3rem;
     height: 3rem;
 }
-
 label {
 	font-size: 2.7rem;
+}
+#nextBtn::after {
+background-image: url("../svg/arrow-up.svg");
 }
 
 /**** Footer ****/
