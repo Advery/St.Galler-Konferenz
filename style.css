@@ -454,16 +454,39 @@ a.uk-button-default:hover {
 	.div-title {
 	 	width: 100%;
 		margin: 0;
+		padding: 0;
 	}
 	.div-content {
 		width: 100%;
 		margin: 0;
+		padding: 0;
 	}
 	.uk-container {
 		width: 100%;
 		margin: 0;
+		padding: 0;
 	}
-	h1 {
+	.uk-container-expand {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.uk-padding-large {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.uk-padding-large {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.hauptspalte {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+		h1 {
 		font-size: 3.5rem;
 	}
 	h3 {
@@ -471,21 +494,5 @@ a.uk-button-default:hover {
 	}
 	h4 {
 		font-size: 1rem;
-	}
-	.uk-container-expand {
-		margin: 0;
-		width: 100%;
-	}
-	.uk-padding-large {
-		margin: 0;
-		width: 100%;
-	}
-	.uk-padding-large {
-		margin: 0;
-		width: 100%;
-	}
-	.hauptspalte {
-		margin: 0;
-		width: 100%;
 	}
 }
