@@ -477,6 +477,7 @@ a.uk-button-default:hover {
 		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
+		border: none;
 	}
 	.uk-container {
 		width: 100%;
@@ -505,7 +506,9 @@ a.uk-button-default:hover {
 		display: inline-block;
 	}
 	.uk-grid {
-		border: none;
+		width: 100%;
+		margin: 0!important;
+		padding: 0!important;
 	}
 	h1 {
 		font-size: 3.5rem;
