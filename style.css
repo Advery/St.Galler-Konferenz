@@ -553,8 +553,9 @@ a.uk-button-default:hover {
 		padding: 2.5rem 0;
 	}
 	footer a {
-		font-size: 1rem;
 		margin: 0;
 	}
-	
+	footer .uk-grid .uk-first-column span {
+		font-size: 1rem;
+	}
 }
