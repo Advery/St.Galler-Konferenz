@@ -477,7 +477,7 @@ a.uk-button-default:hover {
 		padding: 0!important;
 		border-right: none;
 	}
-	.uk-padding-large {
+	.uk-padding-large div {
 		border-right: none;
 	}
 	.uk-container {
