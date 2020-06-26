@@ -452,7 +452,24 @@ a.uk-button-default:hover {
 		display: none;
 	}
 	.page-wrapper {
-	margin: 0.2rem;
-	width: 100vw;
+		margin: 0.2rem;
+		width: 100vw;
+	}
+	.div-title {
+	 	width: 100%;
+		margin: 1.5rem;
+	}
+	.div-content {
+		width: 100%;
+		margin: 1.5rem;
+	}
+	h1 {
+		font-size: 3.5rem;
+	}
+	h3 {
+		font-size: 1.6rem;
+	}
+	h4 {
+		font-size: 1rem;
 	}
 }
