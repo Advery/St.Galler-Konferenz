@@ -404,50 +404,12 @@ input.invalid {
 
 /**** Form Style ****/
 
-[type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label
-{
-    position: relative;
-    padding-left: 5rem;
-    cursor: pointer;
-    line-height: 4rem;
-    display: inline-block;
-    color: #666;
-}
-[type="radio"]:checked + label:before,
-[type="radio"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
+input[type=radio] {
     width: 3rem;
     height: 3rem;
     border: 3px solid #003E57;
     border-radius: 100%;
     background: #FCCC97;
-}
-[type="radio"]:checked + label:after,
-[type="radio"]:not(:checked) + label:after {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #F87DA9;
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-[type="radio"]:not(:checked) + label:after {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-}
-[type="radio"]:checked + label:after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
 }
 label {
 	font-size: 2.7rem;
