@@ -571,8 +571,13 @@ a.uk-button-default:hover {
 		border-bottom: 0.1rem solid #003E57;
 		padding-bottom: 0.25rem;
 	}
-	.uk-padding-large.div-content > div {
-    		border-right: none!important;
+	.uk-accordion-title, .uk-accordion-title:hover, .uk-accordion-title:active, .uk-accordion-title:focus {
+	    font-size: 1.2rem;
+	    font-weight: 500;
+	    color: #003E57;
+	    text-align: right;
+	    border-bottom: 0.1rem solid #003E57;
+	    padding-bottom: 0.25rem;
 	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
