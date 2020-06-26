@@ -560,7 +560,7 @@ a.uk-button-default:hover {
 		padding-bottom: 0.25rem;
 	}
 	.uk-padding-large.div-content > div {
-    		border-right: none;
+    		border-right: none!important;
 	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
