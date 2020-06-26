@@ -411,7 +411,7 @@ input.invalid {
 label {
 	font-size: 2.7rem;
 }
-#nextBtn::after {
+.nextbtn::after {
 background-image: url("../svg/arrow-up.svg");
 }
 
