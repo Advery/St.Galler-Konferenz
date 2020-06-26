@@ -513,29 +513,29 @@ a.uk-button-default:hover {
 		padding: 0!important;
 	}
 	h1 {
-		font-size: 3.5rem;
+		font-size: 4rem;
 		line-height: normal;
 		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
 	}
 	h3 {
-		font-size: 1.6rem;
-		line-height: normal;
+		font-size: 2rem;
+		line-height: 2.5rem;
 		width: 100%;
-		margin: 0!important;
+		margin: 1.75rem 0!important;
 		padding: 0!important;
 	}
 	h4 {
-		font-size: 1rem;
-		line-height: normal;
+		font-size: 1.6rem;
+		line-height: 2rem;
 		width: 100%;
-		margin: 0!important;
+		margin: 1.5rem  0 0 0!important;
 		padding: 0!important;
 	}
 	p {
-		font-size: 0.8rem;
-		line-height: normal;
+		font-size: 1rem;
+		line-height: 1.35rem;
 		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
