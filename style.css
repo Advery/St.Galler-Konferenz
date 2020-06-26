@@ -586,6 +586,9 @@ a.uk-button-default:hover {
 	.uk-margin-medium-right {
     		margin-right: 2rem!important;
 	}
+	.uk-offcanvas-bar .uk-nav-default > li > a {
+    		font-size: 2rem;
+	}
 	.uk-accordion-title {
 		font-size: 1.2rem;
 		font-weight: 500;
