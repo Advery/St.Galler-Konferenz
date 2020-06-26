@@ -571,6 +571,7 @@ a.uk-button-default:hover {
 	}
 	.uk-navbar-toggle{
     		padding-right: 0rem;
+		max-width: 4rem;
 	}
 	.uk-accordion-title {
 		font-size: 1.2rem;
