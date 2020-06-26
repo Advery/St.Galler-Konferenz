@@ -463,7 +463,14 @@ a.uk-button-default:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-@media only screen and (max-device-width: 960px) {
+@media only screen and (max-device-width: 640px) {
+	.page-wrapper {
+		height: calc(100% - 10rem);
+		margin: 2.5rem 2.5rem 0 2.5rem;
+	}
+}
+
+@media only screen and (max-device-width: 640px) {
 	.hand-container {
 		display: none;
 	}
