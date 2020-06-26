@@ -616,12 +616,12 @@ a.uk-button-default:hover {
 	}
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
-		flex-direction: column;
-	}
-
-	footer .uk-grid .uk-first-column:nth-child(4) {
-		display: flex;
 		flex-direction: row;
+		margin: 1rem 0 0 0;
+	}
+	footer .uk-grid .uk-first-column:nth-child(4) {
+	    display: flex;
+	    flex-direction: column;
 	}
 	footer .uk-grid .uk-first-column:last-child a:first-child {
 		margin: 0 1.5rem 0 0;
@@ -644,7 +644,7 @@ a.uk-button-default:hover {
 		padding: 0 1.5rem !important;
 		width: 100%;
 		display: flex;
-		flex-direction: column;
-		
+		flex-direction: column;	
 	}
+	
 }
