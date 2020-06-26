@@ -463,6 +463,85 @@ a.uk-button-default:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+@media only screen and (max-device-width: 1200px) {
+	.hand-container {
+	display: none;
+	}
+	.abschlusslinie {
+
+	}
+	h1::before {
+
+	}
+	h1::after {
+
+	}
+	.page-wrapper {
+		height: calc(100% - 10rem);
+		margin: 5rem 5rem 0 5rem;
+	h1 {
+		font-size: 6rem;
+	}
+	h3 {
+		font-size: 2.5rem;
+		line-height: 3.125rem;
+		margin: 1.75rem 0!important;
+		padding: 0!important;
+	}
+	h4 {
+		font-size: 1.8rem;
+		line-height: 2.25rem;
+		margin: 2rem 0 1rem 0!important;
+		padding: 0!important;
+	}
+	p {
+	    font-size: 1.5rem;
+	    line-height: 2.25rem;
+	    margin: 1rem 0 0 0!important;
+	    padding: 0!important;
+	}
+
+	.uk-navbar-item {
+    		font-size: 1.8rem;
+	}
+	.uk-navbar-toggle{
+    		padding-right: 0rem;
+		max-width: 4rem;
+	}
+	.uk-offcanvas-close {
+    		margin-top: 0rem;
+    		margin-right: 0rem;
+		padding: 0;
+		max-width: 4rem;
+	}
+	.uk-offcanvas-flip .uk-open > .uk-offcanvas-bar {
+		padding-top: 10rem;
+		padding-left: 4rem;
+	}
+	.uk-margin-medium-right {
+    		margin-right: 2rem!important;
+	}
+	.uk-offcanvas-bar .uk-nav-default > li > a {
+    		font-size: 2rem;
+	}
+	.uk-accordion-title {
+		font-size: 1.2rem;
+		font-weight: 500;
+		color: #003E57;
+		text-align: right;
+		border-bottom: 0.1rem solid #003E57;
+		padding-bottom: 0.25rem;
+	}
+	.uk-accordion-title, .uk-accordion-title:hover, .uk-accordion-title:active, .uk-accordion-title:focus {
+	    font-size: 1.5rem;
+	    font-weight: 500;
+	    color: #003E57;
+	    text-align: right;
+	    border-bottom: 0.1rem solid #003E57;
+	    padding-bottom: 0.25rem;
+	}
+}
+
 @media only screen and (max-device-width: 960px) {
 	.hand-container {
 		display: none;
@@ -507,7 +586,7 @@ a.uk-button-default:hover {
 	.page-wrapper div:nth-child(3) {
 	    width: 100%;
 	    margin: 0;
-	    padding: 0 1.5rem 0 1.5rem!important;
+	    padding: 0 2.5rem 0 2.5rem!important;
 	}
 	.uk-padding-large {
 		width: 100%;
@@ -610,7 +689,7 @@ a.uk-button-default:hover {
 	}
 	
 	footer .uk-grid > * {
-		padding: 0 1.5rem !important;
+		padding: 0 2.5rem !important;
 		width: 100%;
 	}
 	footer {
@@ -674,9 +753,18 @@ a.uk-button-default:hover {
 		height: calc(100% - 10rem);
 		margin: 0;
 	}
+	.page-wrapper div:nth-child(3) {
+	    width: 100%;
+	    margin: 0;
+	    padding: 0 1.5rem 0 1.5rem!important;
+	}
 	.uk-container-expand {
 	    width: 100%;
 	    margin: 0;
-	    padding: 0 1.5rem 2.5rem 1.5rem !important;
+	    padding: 0 1.5rem 1.5rem 1.5rem !important;
+	}
+	footer .uk-grid > * {
+		padding: 0 1.5rem !important;
+		width: 100%;
 	}
 }
