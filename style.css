@@ -449,7 +449,7 @@ a.uk-button-default:hover {
 	}
 	.page-wrapper {
 		margin: 0.2rem;
-		width: 100vw;
+		width: 100%;
 	}
 	.div-title {
 	 	width: 100%;
@@ -489,24 +489,28 @@ a.uk-button-default:hover {
 		h1 {
 		font-size: 3.5rem;
 		line-height: normal;
+		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
 	}
 	h3 {
 		font-size: 1.6rem;
 		line-height: normal;
+		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
 	}
 	h4 {
 		font-size: 1rem;
 		line-height: normal;
+		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
 	}
 	p {
 		font-size: 0.8rem;
 		line-height: normal;
+		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
 	}
