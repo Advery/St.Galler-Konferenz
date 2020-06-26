@@ -563,10 +563,9 @@ a.uk-button-default:hover {
 	}
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
-		flex-directions: column;
+		flex-direction: column;
 	}
 	footer .uk-grid .uk-first-column a {
-		
 		font-size: 1.2rem;
 		padding: 0;
 	}
