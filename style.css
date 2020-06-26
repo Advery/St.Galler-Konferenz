@@ -285,7 +285,6 @@ li.uk-open .uk-accordion-title {
 a.uk-button {
   margin-top: 3rem;
   border: none;
-	min-width: 21rem;
 }
 a.uk-button:hover {
   border: none;
@@ -299,6 +298,7 @@ a.uk-button:hover {
 }
 .uk-button-large {
   padding: 1.6rem 2.2rem;
+min-width: 21rem;	
 }
 
 /**** Programm ****/
