@@ -502,7 +502,7 @@ a.uk-button-default:hover {
 	.uk-container-expand {
 	    width: 100%;
 	    margin: 0;
-	    padding: 0 1.5rem 2.5rem 1.5rem !important;
+	    padding: 0 2.5rem 2.5rem 2.5rem !important;
 	}
 	.page-wrapper div:nth-child(3) {
 	    width: 100%;
@@ -673,5 +673,10 @@ a.uk-button-default:hover {
 	.page-wrapper {
 		height: calc(100% - 10rem);
 		margin: 0;
+	}
+	.uk-container-expand {
+	    width: 100%;
+	    margin: 0;
+	    padding: 0 1.5rem 2.5rem 1.5rem !important;
 	}
 }
