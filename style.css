@@ -548,6 +548,10 @@ a.uk-button-default:hover {
 		margin: 0!important;
 		padding: 0!important;
 	}
+	.uk-grid > * {
+		padding: 0 1.5rem !important;
+		width: 100%;
+	}
 	footer {
 		height: auto;
 		padding: 2.5rem 0;
