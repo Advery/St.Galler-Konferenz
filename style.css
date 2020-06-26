@@ -477,7 +477,7 @@ a.uk-button-default:hover {
 		width: 100%;
 		margin: 0!important;
 		padding: 0!important;
-		border: none;
+		border: none!important;
 	}
 	.uk-container {
 		width: 100%;
