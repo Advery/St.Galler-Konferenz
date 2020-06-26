@@ -584,7 +584,7 @@ a.uk-button-default:hover {
 		padding-left: 4rem;
 	}
 	.uk-margin-medium-right {
-    		margin-right: 2rem;
+    		margin-right: 2rem!important;
 	}
 	.uk-accordion-title {
 		font-size: 1.2rem;
