@@ -458,41 +458,48 @@ a.uk-button-default:hover {
 	}
 	.div-content {
 		width: 100%;
-		margin: 0;
-		padding: 0;
+		margin: 0!important;
+		padding: 0!important;
 	}
 	.uk-container {
 		width: 100%;
-		margin: 0;
-		padding: 0;
+		margin: 0!important;
+		padding: 0!important;
 	}
 	.uk-container-expand {
 		width: 100%;
-		margin: 0;
-		padding: 0;
+		margin: 0!important;
+		padding: 0!important;
 	}
 	.uk-padding-large {
 		width: 100%;
-		margin: 0;
-		padding: 0;
+		margin: 0!important;
+		padding: 0!important;
 	}
 	.uk-padding-large {
 		width: 100%;
-		margin: 0;
-		padding: 0;
+		margin: 0!important;
+		padding: 0!important;
 	}
 	.hauptspalte {
 		width: 100%;
-		margin: 0;
-		padding: 0;
+		margin: 0!important;
+		padding: 0!important;
 	}
 		h1 {
 		font-size: 3.5rem;
+		line-height: auto;
 	}
 	h3 {
 		font-size: 1.6rem;
+		line-height: auto;
 	}
 	h4 {
 		font-size: 1rem;
+		line-height: auto;
+	}
+	p {
+		font-size: 0.8rem;
+		line-height: auto;
 	}
 }
