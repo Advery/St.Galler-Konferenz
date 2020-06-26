@@ -360,12 +360,8 @@ border-bottom: none;
 
 /**** Multistep Formular ****/
 #regForm {
-  background-color: #ffffff;
-  margin: 100px auto;
-  padding: 40px;
-  width: 70%;
-  min-width: 300px;
-}
+  margin-top: 10rem;
+  }
 input {
   padding: 10px;
   width: 100%;
