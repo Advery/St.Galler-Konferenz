@@ -372,16 +372,6 @@ border-bottom: none;
 #regForm {
   margin-top: 10rem;
   }
-input {
-  padding: 1rem;
-  width: 100%;
-  font-size: 1.8rem;
-  font-family: Raleway;
-  border: 0.1rem solid #aaaaaa;
-}
-label {
-	font-size: 2.7rem;
-}
 /* Mark input boxes that gets an error on validation: */
 input.invalid {
   background-color: #ffdddd;
@@ -418,6 +408,23 @@ input.invalid {
 label {
 	font-size: 2.7rem;
 }
+.form-group {
+display: flex;
+margin-bottom: 5rem;	
+}
+.control-label {
+width: calc(33% - 3rem);
+margin-right: 1.5rem;
+}
+.form-control {
+padding: 1.4rem;	
+border: none;
+width: 67%;
+border-radius: 0.6rem;
+background: rgba(255,255,255,0.7);	
+}
+
+
 /*.nextbtn::after {
     content: "";
     width: 2rem;
