@@ -435,6 +435,10 @@ label {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }*/
+.anmelde-buttons {
+	overflow: auto;
+	margin-top: 5rem;
+}
 
 /**** Footer ****/
 footer {
