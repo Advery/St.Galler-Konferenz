@@ -407,21 +407,24 @@ input.invalid {
 }
 label {
 	font-size: 2.7rem;
+	font-weight: 400;
 }
 .form-group {
 display: flex;
-margin-bottom: 5rem;	
+margin-top: 5rem;	
 }
 .control-label {
 width: calc(33% - 3rem);
 margin-right: 1.5rem;
 }
 .form-control {
-padding: 1.4rem;	
+padding: 1.4rem 1.5rem 0 1.5rem;;
+font-size: 2.7rem;	
 border: none;
 width: 67%;
 border-radius: 0.6rem;
-background: rgba(255,255,255,0.7);	
+background: rgba(255,255,255,0.7);
+height:; 4.6rem;
 }
 
 
