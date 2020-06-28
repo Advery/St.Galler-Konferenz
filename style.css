@@ -419,11 +419,19 @@ label {
 }
 .nextbtn::after {
     content: "";
-    width: 1.4em;
-    height: 1.4em;
-    margin-left: 1rem;
+    width: 2rem;
+    margin-left: 4rem;
     float: right;
-    background-image: url("../svg/arrow-down.svg");
+    background-image: url("../svg/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.prevbtn::after {
+    content: "";
+    width: 2rem;
+    margin-right: 4rem;
+    float: left;
+    background-image: url("../svg/arrow-left.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
