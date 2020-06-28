@@ -416,16 +416,20 @@ margin-top: 5rem;
 .control-label {
 width: calc(33% - 3rem);
 margin-right: 1.5rem;
+padding-top: 0.5rem;
+}
+[type="select"]{
+	width: 25%;
 }
 .form-control {
-padding: 1.4rem 1.5rem 0 1.5rem;;
+padding: 0.6rem 1.5rem 0 1.5rem;;
 font-size: 2.5rem;
 color: #003E57;
 border: none;
 width: 67%;
 border-radius: 0.6rem;
-background: rgba(255,255,255,0.7);
-height: 4.6rem;
+background: rgba(255,255,255,0.5);
+font-family: 'DM Sans', sans-serif;
 }
 
 
