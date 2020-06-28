@@ -417,7 +417,7 @@ input.invalid {
 label {
 	font-size: 2.7rem;
 }
-.nextbtn::after {
+/*.nextbtn::after {
     content: "";
     width: 2rem;
     margin-left: 4rem;
@@ -425,8 +425,8 @@ label {
     background-image: url("../svg/arrow-right.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
-}
-.prevbtn::after {
+}*/
+/*.prevbtn::after {
     content: "";
     width: 2rem;
     margin-right: 4rem;
@@ -434,7 +434,7 @@ label {
     background-image: url("../svg/arrow-left.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
-}
+}*/
 
 /**** Footer ****/
 footer {
