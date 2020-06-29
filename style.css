@@ -569,12 +569,27 @@ a.uk-button-default:hover {
 	.abschlusslinie {
 
 	} 
-	h1::before {
-
+	h1::after {
+	    border-left: 6rem solid #FCCC97;
 	}
 	h1::after {
-
+	    background-size: 1rem 1rem;
 	}
+	h1::before {
+	    width: 1rem;
+	}
+
+	.uebertitel {
+	  margin: 0 0 16rem 0;
+	}
+
+	 h2::after {
+	    background-size: 1rem 1.5rem;
+	 }
+
+	 h2::before {
+	    width: 1rem;
+	 }
 	.page-wrapper {
 		height: calc(100% - 10rem);
 		margin: 5rem 5rem 0 5rem;
