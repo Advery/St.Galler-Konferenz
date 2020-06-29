@@ -566,9 +566,6 @@ a.uk-button-default:hover {
 	.hand-container {
 		display: none;
 	}
-	.abschlusslinie {
-
-	} 
 	h1::after {
 	    border-left: 6rem solid #FCCC97;
 	}
@@ -582,7 +579,7 @@ a.uk-button-default:hover {
     	border-right: 1rem solid #003E57;
 	}
 	.abschlusslinie {
-		margin: 2.5rem 0 0 0;
+		padding: 2.5rem 0 0 0;
 	    height: 7rem;
 	    border-left: 1rem solid #003E57;
 	    border-bottom: 1rem solid #003E57;
