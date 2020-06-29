@@ -35,9 +35,6 @@ h1 {
   margin: 0;
   position: relative;
 }
-h2 {
-	overflow-wrap: break-word;
-}
 h3 {
   font-size: 6rem;
   line-height: 7.5rem;
@@ -93,7 +90,8 @@ h2 {
   display: table;
   margin: 0;
   position: relative;
-white-space: nowrap;
+  white-space: nowrap;
+  overflow-wrap: break-word;
 }
  h2::after {
    content: "";
