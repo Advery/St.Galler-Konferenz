@@ -545,7 +545,7 @@ a.uk-button-default:hover {
 }
 
 @media only screen and (max-device-width: 1200px) {
-	/* .hand-container {
+	.hand-container {
 		display: none;
 	}
 	.abschlusslinie {
@@ -645,7 +645,7 @@ a.uk-button-default:hover {
 	}
 	footer .uk-grid .uk-width-1-5@m {
 		width: 50%;
-	} */
+	}
 }
 
 @media only screen and (max-device-width: 960px) {
