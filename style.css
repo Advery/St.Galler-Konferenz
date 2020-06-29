@@ -621,6 +621,11 @@ a.uk-button-default:hover {
 		border-bottom: 0.1rem solid #003E57;
 		padding-bottom: 0.25rem;
 	}
+		
+	.referenten-beschreibung {
+		width: 100%;
+	}
+		
 	footer .uk-grid {
 		display: flex;
 	}
