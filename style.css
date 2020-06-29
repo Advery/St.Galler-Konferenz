@@ -554,6 +554,10 @@ footer .uk-padding-large {
     padding: 0;
 }
 
+footer .uk-grid .uk-first-column:last-child a:last-child {
+		margin: 2.5rem 0 0 0;
+}
+
 
 @media only screen and (max-device-width: 1600px) {
     canvas, img, video {
