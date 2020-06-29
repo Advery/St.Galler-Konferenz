@@ -582,6 +582,7 @@ a.uk-button-default:hover {
     	border-right: 1rem solid #003E57;
 	}
 	.abschlusslinie {
+		margin: 2.5rem 0 0 0;
 	    height: 7rem;
 	    border-left: 1rem solid #003E57;
 	    border-bottom: 1rem solid #003E57;
@@ -688,9 +689,9 @@ a.uk-button-default:hover {
 		margin-right: 3rem;
 	}
 
-    .referenten-name img {
-        margin-left: 0;
-    }
+	.referenten-name img {
+		margin-left: 0;
+	}
 
 	footer .uk-grid > * {
 		padding: 0 2.5rem !important;
