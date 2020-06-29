@@ -588,8 +588,11 @@ a.uk-button-default:hover {
 	.uk-padding-large {
     		padding: 0 30rem;
 	}
+	.uk-padding-large.div-title {
+	  padding: 4.5rem 2.5rem 0 2.5rem;
+	}
 	.uk-padding-large.div-content {
-        	padding: 0 9rem 9rem 9rem;
+	  padding: 0 2.5rem 4.5rem 2.5rem;
 	}
 
 	.uebertitel {
