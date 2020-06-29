@@ -659,7 +659,7 @@ a.uk-button-default:hover {
 		flex-direction: column;	
 	}
 	footer {
-		height: auto;
+		height: 40rem;
 		padding: 2.5rem 0;
 	}
 	footer a {
