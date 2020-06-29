@@ -575,6 +575,11 @@ a.uk-button-default:hover {
 		margin: 2rem 0 1rem 0!important;
 		padding: 0!important;
 	}
+		
+	.hauptspalte-breit .page-wrapper div:nth-child(3) {
+		padding: 0;
+	}
+		
 	p {
 	    font-size: 1.5rem;
 	    line-height: 2.25rem;
@@ -624,6 +629,14 @@ a.uk-button-default:hover {
 		
 	.referenten-beschreibung {
 		width: 100%;
+	}
+		
+	.hauptspalte-breit {
+		padding: 0 3rem;	
+	}
+		
+	.ohnelinie .referenten-name {
+		margin-right: 3rem;
 	}
 		
 	footer .uk-grid {
