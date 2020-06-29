@@ -547,8 +547,9 @@ a.uk-button-default:hover {
 }
 
 footer .uk-grid .uk-first-column a:last-child {
-		margin-top: 0.5rem;
-	}
+	margin-top: 0.5rem;
+}
+
 
 @media only screen and (max-device-width: 1600px) {
     canvas, img, video {
@@ -737,6 +738,13 @@ footer .uk-grid .uk-first-column a:last-child {
 		align-items: center;
 		justify-content: center;
 	}
+	footer .uk-grid .uk-first-column:last-child a:first-child {
+		margin: 0 2.5rem 0 0;
+	}
+	footer .uk-grid .uk-first-column:last-child a:last-child {
+		margin: 0 0 0 0;
+	}
+	
 	footer .uk-grid .uk-first-column img {
 		width: 15rem;
 		margin: 0.5rem 0 0 0;
@@ -932,14 +940,10 @@ footer .uk-grid .uk-first-column a:last-child {
 	footer .uk-grid .uk-first-column a {
 		padding: 0;
 		width: 15rem;
-		margin-top: 0;
 		height: 5rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	}
-	footer .uk-grid .uk-first-column:last-child a:first-child {
-		margin: 0 0 0 2.5rem;
 	}
 }
 
@@ -966,13 +970,9 @@ footer .uk-grid .uk-first-column a:last-child {
 	footer .uk-grid .uk-first-column a {
 		padding: 0;
 		width: 10rem;
-		margin-top: 0;
 		height: 3rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	}
-	footer .uk-grid .uk-first-column:last-child a {
-		margin: 0 2.5rem 0 0 ;
 	}
 }
