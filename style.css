@@ -614,16 +614,16 @@ a.uk-button-default:hover {
 		margin: 5rem 5rem 0 5rem;
 	}
 	h1 {
-		font-size: 6rem;
+	
 	}
 	h3 {
-		font-size: 2.5rem;
+	
 		line-height: 3.125rem;
 		margin: 1.75rem 0!important;
 		padding: 0!important;
 	}
 	h4 {
-		font-size: 1.8rem;
+	
 		line-height: 2.25rem;
 		margin: 2rem 0 1rem 0!important;
 		padding: 0!important;
@@ -634,14 +634,14 @@ a.uk-button-default:hover {
 	}
 		
 	p {
-	    font-size: 1.5rem;
+
 	    line-height: 2.25rem;
 	    margin: 1rem 0 0 0!important;
 	    padding: 0!important;
 	}
 
 	.uk-navbar-item {
-    		font-size: 1.8rem;
+    		
 	}
 	.uk-navbar-toggle{
     		padding-right: 0rem;
@@ -661,10 +661,10 @@ a.uk-button-default:hover {
     		margin-right: 2rem!important;
 	}
 	.uk-offcanvas-bar .uk-nav-default > li > a {
-    		font-size: 2rem;
+    		
 	}
 	.uk-accordion-title {
-		font-size: 1.2rem;
+		
 		font-weight: 500;
 		color: #003E57;
 		text-align: right;
@@ -672,7 +672,7 @@ a.uk-button-default:hover {
 		padding-bottom: 0.25rem;
 	}
 	.uk-accordion-title, .uk-accordion-title:hover, .uk-accordion-title:active, .uk-accordion-title:focus {
-		font-size: 1.5rem;
+		
 		font-weight: 500;
 		color: #003E57;
 		text-align: right;
@@ -715,7 +715,7 @@ a.uk-button-default:hover {
    		margin: 0 0 2rem 0;
 	}
 	footer .uk-grid .uk-first-column span {
-		font-size: 1.5rem;
+		
 	}
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
@@ -736,7 +736,7 @@ a.uk-button-default:hover {
 		margin: 0 1.5rem 0 0;
 	}
 	footer .uk-grid .uk-first-column a {
-		font-size: 1.5rem;
+		
 		padding: 0;
 		width: 10rem;
 		margin-top: 0;
