@@ -597,6 +597,9 @@ a.uk-button-default:hover {
 	.uk-padding-large.div-nav {
     	  padding: 2.5rem 2.5rem 0 2.5rem;
 	}
+	footer .uk-padding-large {
+    	  padding: 0 3.9rem;
+	}
 
 	.uebertitel {
 	  margin: 0 0 16rem 0;
