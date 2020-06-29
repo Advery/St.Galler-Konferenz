@@ -934,9 +934,9 @@ footer .uk-grid .uk-first-column a:last-child {
 	}
 	footer .uk-grid .uk-first-column a {
 		padding: 0;
-		width: 10rem;
+		width: 15rem;
 		margin-top: 0;
-		height: 3rem;
+		height: 5rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -962,5 +962,14 @@ footer .uk-grid .uk-first-column a:last-child {
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
 		width: 100%;
+	}
+		footer .uk-grid .uk-first-column a {
+		padding: 0;
+		width: 10rem;
+		margin-top: 0;
+		height: 3rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }
