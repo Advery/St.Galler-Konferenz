@@ -801,13 +801,16 @@ a.uk-button-default:hover {
 	}
 	
 	.hauptspalte-breit .referenten .referenten-name {
-    		margin-right: 1.5rem;
-    		margin-bottom: 1rem;
-    		
+		width: 100%;
 	}
 	
 	.hauptspalte-breit {
 		padding: 0;
+	}
+	
+	.referenten-beschreibung {
+		margin: 0;
+		width: 100%;
 	}
 	
 	footer .uk-grid > * {
