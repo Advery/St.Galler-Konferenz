@@ -621,6 +621,11 @@ a.uk-button-default:hover {
 	    border-bottom: 0.1rem solid #003E57;
 	    padding-bottom: 0.25rem;
 	}
+	footer .uk-grid {
+		display: grid;
+		grid-template-rows: auto / auto;
+		
+	}
 }
 
 @media only screen and (max-device-width: 960px) {
