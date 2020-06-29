@@ -941,6 +941,9 @@ footer .uk-grid .uk-first-column a:last-child {
 		align-items: center;
 		justify-content: center;
 	}
+	footer .uk-grid .uk-first-column:last-child a:first-child {
+		margin: 0 0 0 0;
+	}
 }
 
 @media only screen and (max-device-width: 640px) {
@@ -963,7 +966,7 @@ footer .uk-grid .uk-first-column a:last-child {
 		padding: 0 1.5rem !important;
 		width: 100%;
 	}
-		footer .uk-grid .uk-first-column a {
+	footer .uk-grid .uk-first-column a {
 		padding: 0;
 		width: 10rem;
 		margin-top: 0;
@@ -971,5 +974,8 @@ footer .uk-grid .uk-first-column a:last-child {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+	footer .uk-grid .uk-first-column:last-child a:first-child {
+		margin: 0 0 0 0;
 	}
 }
