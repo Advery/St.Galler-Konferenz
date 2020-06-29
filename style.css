@@ -625,7 +625,7 @@ a.uk-button-default:hover {
 		display: flex;
 		
 	}
-	footer .uk-grid .uk-width-1-5@m {
+	footer .uk-grid div {
 		width: 50%;
 	}
 }
