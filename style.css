@@ -623,7 +623,7 @@ a.uk-button-default:hover {
 	}
 	footer .uk-grid {
 		display: grid;
-		grid-template-rows: auto / auto;
+		grid-template-columns: auto auto;
 		
 	}
 }
