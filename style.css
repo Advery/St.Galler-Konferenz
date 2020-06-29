@@ -892,7 +892,7 @@ a.uk-button-default:hover {
 }
 
 @media only screen and (max-device-width: 640px) {
-	/* .page-wrapper {
+	.page-wrapper {
 		height: calc(100% - 10rem);
 		margin: 0;
 	}
@@ -915,5 +915,5 @@ a.uk-button-default:hover {
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
 		width: 100%;
-	} */
+	}
 }
