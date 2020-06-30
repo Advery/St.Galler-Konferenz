@@ -922,7 +922,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	    margin: 0;
 	    padding: 0 1.5rem 1.5rem 1.5rem !important;
 	}
-	.referenten-name img {
+	.referenten-name {
 		display: flex;
 		justify-content: center;
 	}
