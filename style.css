@@ -575,10 +575,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 
 @media only screen and (min-device-width : 1200px) and (max-device-width : 1600px) {
      hand-container img {
-        max-width: 50%;
-        margin-left: 50%;
-        height: auto;
-        box-sizing: border-box;
+	display: none;
     }
 }
 
