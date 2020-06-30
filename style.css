@@ -923,6 +923,15 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.hauptspalte-breit {
 		padding: 0;
 	}
+	.hauptspalte-breit p:first-child {
+		
+	}
+	.referenten:nth-of-type(3) {
+		margin-top: 3.5rem;
+	}
+	.referenten p {
+		margin: 0 0 1.5rem 0!important;
+	}
 	
 	.referenten-beschreibung {
 		margin: 0;
@@ -951,15 +960,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0;
 		padding: 0;
 	}
-	.hauptspalte-breit p:first-child {
-		
-	}
-	.referenten:nth-of-type(3) {
-		margin-top: 2.5rem;
-	}
-	.referenten p {
-		margin: 0 0 1.5rem 0!important;
-	}
+
 	.referenten-name {
 		display: flex;
 		justify-content: center;
