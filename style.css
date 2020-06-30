@@ -542,18 +542,24 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 }
 
+@media only screen and (min-device-width : 1200px) and (max-device-width : 1865px) {
+	footer div div a:first-child {
+		margin-bottom: 2.5rem;
+	}
+}
+
 @media only screen and (min-device-width : 1200px) and (max-device-width : 1600px) {
    .hand-container {
    		max-width: 38%;
 	}
 	.uk-grid>* {
 
-    }
+    	}
+	footer {
+		padding: 9rem 0 0 0;;
+	}
 	footer .uk-padding-large {
     		padding: 0;
-	}
-	footer div div a:first-child {
-		margin-bottom: 2.5rem;
 	}
 }
 
