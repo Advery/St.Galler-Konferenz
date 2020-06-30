@@ -91,7 +91,7 @@ h2 {
   display: table;
   margin: 0;
   position: relative;
-  white-space: nowrap;
+  white-space: normal;
   overflow-wrap: break-word;
 }
  h2::after {
@@ -969,6 +969,10 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	    width: 100%;
 	    margin: 0;
 	    padding: 0 1.5rem 1.5rem 1.5rem !important;
+	}
+	.referenten img {
+		display: flex;
+		justify-content: center;
 	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
