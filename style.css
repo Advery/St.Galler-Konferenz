@@ -458,7 +458,8 @@ option:disabled{
 }
 .trennlinie-ws {
 border-bottom: 0.3rem solid #003E57;
-  padding-bottom: 1rem;
+padding-bottom: 1rem;
+width: calc(100% - 1.5rem);	
 }
 
 
