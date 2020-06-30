@@ -930,8 +930,11 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0;
 		padding: 0;
 	}
+	.hauptspalte-breit p:first-child {
+		margin: 0 0 2.5rem 0;
+	}
 	.referenten p {
-		margin: 0 0 1.5 0!important;
+		margin: 0 0 1.5rem 0!important;
 	}
 	.referenten-name {
 		display: flex;
