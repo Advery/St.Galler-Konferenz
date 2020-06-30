@@ -453,6 +453,9 @@ margin-bottom: -2rem;
 .titel-mittagessen {
 margin-bottom: 2rem;
 }
+option:disabled{
+  color: silver;
+}
 
 
 
