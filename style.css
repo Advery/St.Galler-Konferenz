@@ -559,8 +559,8 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 }
 
 
-@media only screen and (max-device-width: 1600px) {
-    canvas, img, video {
+@media only screen and (max-device-width : 1600px) {
+     hand-container img {
         max-width: 70%;
         margin-left: 30%;
         height: auto;
