@@ -723,7 +723,8 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
    		margin: 0 0 2rem 0;
 	}
 	footer .uk-grid .uk-first-column span {
-		
+		font-size: 1.5rem;
+    		line-height: 2.25rem;
 	}
 	footer .uk-grid .uk-first-column:last-child {
 		display: flex;
