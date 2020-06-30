@@ -559,24 +559,19 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 }
 
 @media only screen and (min-device-width : 1600px) and (max-device-width : 1920px) {
-     hand-container img {
+     hand-container {
         max-width: 70%;
-        margin-left: 30%;
-        height: auto;
-        box-sizing: border-box;
     }
 }
 
 @media only screen and (max-device-width : 1600px) {
-	h2 {
-	  white-space: normal;
-	}
+	
 }
 
 @media only screen and (min-device-width : 1200px) and (max-device-width : 1600px) {
-     hand-container img {
-	display: none;
-    }
+   .hand-container {
+   	max-width: 38%;
+	}
 }
 
 @media only screen and (min-device-width : 960px) and (max-device-width : 1600px) {
@@ -591,23 +586,23 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		display: none;
 	}
 	h1::after {
-	    border-left: 6rem solid #FCCC97;
+	    	border-left: 6rem solid #FCCC97;
 	}
 	h1::after {
-	    background-size: 1rem 1rem;
+	    	background-size: 1rem 1rem;
 	}
 	h1::before {
-	    width: 1rem;
+	    	width: 1rem;
 	}
 	.uk-padding-large.div-content > div {
-    	border-right: 1rem solid #003E57;
+    		border-right: 1rem solid #003E57;
 	}
 	.abschlusslinie {
 		padding: 2.5rem 0 0 0;
-	    height: 7rem;
-	    border-left: 1rem solid #003E57;
-	    border-bottom: 1rem solid #003E57;
-	    border-right: 1rem solid #003E57;
+	    	height: 7rem;
+	    	border-left: 1rem solid #003E57;
+	    	border-bottom: 1rem solid #003E57;
+	    	border-right: 1rem solid #003E57;
 	}
 	.uk-padding-large {
     		padding: 0 30rem;
