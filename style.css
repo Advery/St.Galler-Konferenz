@@ -935,7 +935,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.hauptspalte-breit .referenten {
 		display: flex;
 		flex-direction: column;
-		border-bottom: 1px solid #003E57;
+		border-bottom: none;
 	}
 	
 	.hauptspalte-breit .referenten .referenten-name {
