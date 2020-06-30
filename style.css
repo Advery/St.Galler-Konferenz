@@ -427,6 +427,15 @@ padding-top: 0.5rem;
 select {
 	width: 25% !important;
 }
+.tab-sel-workshops .control-label {
+width: calc(67% - 3rem);
+margin-right: 1.5rem;
+padding-top: 0.5rem;
+}
+select.sel-workshops {
+	width: 33% !important;
+	height: 5rem;
+}
 .form-control {
 padding: 0.6rem 1.5rem 0 1.5rem;;
 font-size: 2.5rem;
@@ -441,7 +450,7 @@ font-family: 'DM Sans', sans-serif;
 margin-bottom: -2rem;
 }
 .titel-mittagessen {
-margin-bottom: -2rem;
+margin-bottom: 2rem;
 }
 
 
