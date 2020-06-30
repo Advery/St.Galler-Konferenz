@@ -534,6 +534,13 @@ footer .uk-padding-large {
 footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 2.5rem 0 0 0;
 }
+.footer-buttons {
+	position: relative;
+}
+.footer-buttons a {
+	position: absolute;
+	z-index: 100;
+}
 
 @media only screen and (min-device-width : 1600px) and (max-device-width : 1920px) {
      hand-container {
