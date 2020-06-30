@@ -932,6 +932,9 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		display: flex;
 		justify-content: center;
 	}
+	.referenten-beschreibung {
+		margin: 0 0 1.5rem 0!important;
+	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
 		width: 100%;
