@@ -778,7 +778,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0.5rem 0 0 0;
 	}
 	footer .uk-grid > * {
-		padding: 0 1.5rem !important;
+		padding: 0!important;
 		width: 100%;
 		display: flex;
 		flex-direction: column;	
@@ -975,7 +975,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0.5rem 0 0 0;
 	}
 	footer {
-		padding: 2.5rem 3rem;
+		padding: 2.5rem 2.5rem;
 	}
 }
 
@@ -1011,7 +1011,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		flex-direction: column;	
 	}
 	footer .uk-grid > * {
-		padding: 0 1.5rem !important;
+		padding: 0!important;
 		width: 100%;
 	}
 	footer .uk-grid .uk-first-column a {
@@ -1021,5 +1021,8 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+	footer .uk-grid > * {
+    		padding: 0 1.5rem !important;
 	}
 }
