@@ -691,6 +691,10 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.referenten-beschreibung {
 		width: 100%;
 	}
+	
+	.hauptspalte-breit .referenten {
+	    border-bottom: none;
+	}
 		
 	.hauptspalte-breit {
 		padding: 0 3rem;	
