@@ -547,11 +547,10 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
    		max-width: 38%;
 	}
 	.uk-grid>* {
-		padding-left: 0;
-		padding-right: 0;
+
     }
 	footer .uk-padding-large {
-    		padding: 90px;
+    		padding: 0;
 	}
 	footer div div a:first-child {
 		margin-bottom: 2.5rem;
