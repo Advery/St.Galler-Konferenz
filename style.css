@@ -558,6 +558,15 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 2.5rem 0 0 0;
 }
 
+@media only screen and (min-device-width : 1600px) and (max-device-width : 1920px) {
+     hand-container img {
+        max-width: 70%;
+        margin-left: 30%;
+        height: auto;
+        box-sizing: border-box;
+    }
+}
+
 @media only screen and (max-device-width : 1600px) {
 	h2 {
 	  white-space: normal;
@@ -566,8 +575,8 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 
 @media only screen and (min-device-width : 1200px) and (max-device-width : 1600px) {
      hand-container img {
-        max-width: 70%;
-        margin-left: 30%;
+        max-width: 50%;
+        margin-left: 50%;
         height: auto;
         box-sizing: border-box;
     }
