@@ -556,7 +556,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 
     	}
 	footer {
-		padding: 9rem 0 0 0;;
+		padding: 0 0 0 9rem;
 	}
 	footer .uk-padding-large {
     		padding: 0;
