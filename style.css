@@ -437,6 +437,12 @@ border-radius: 0.6rem;
 background: rgba(255,255,255,0.5);
 font-family: 'DM Sans', sans-serif;
 }
+.titel-persang {
+margin-bottom: -2rem;
+}
+.titel-mittagessen {
+margin-bottom: -2rem;
+}
 
 
 
