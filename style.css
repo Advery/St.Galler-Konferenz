@@ -136,6 +136,9 @@ p a:hover {
 .hauptspalte-breit ul {
 	margin-top: 0;
 }
+ul.liste-in-text {
+margin-top: -1.5rem;
+}
 li {
 font-size: 2.7rem;
   line-height: 3.7rem;
