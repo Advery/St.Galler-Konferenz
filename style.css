@@ -524,6 +524,10 @@ span{
 	font-size: 2rem;
 	color: white;
 }
+span a{
+	font-size: 2rem;
+	color: white;
+}
 .uk-button-default{
 	background-color: white;
 	color: #003E57;
