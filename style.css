@@ -736,7 +736,19 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	footer {
 		height: auto;
 		padding: 2.5rem 0;
-		backgroundcolor: green;
+	}
+	footer {
+ 	height: 24rem;
+  	background-color: #003E57;
+	color: white;
+	padding: 5rem 14rem;
+	display: flex;
+	align-items: center;
+	position: static;
+	}
+	footer .footer-inhalt {
+	position: static;
+	z-index: 100;
 	}
 	footer a {
 		margin: 0;
