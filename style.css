@@ -524,7 +524,7 @@ span{
 	font-size: 2rem;
 	color: white;
 }
-span a{
+span > a{
 	font-size: 2rem;
 	color: white;
 }
