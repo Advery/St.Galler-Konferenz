@@ -593,6 +593,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	
 	footer {
 		padding: 2.5rem 5rem;
+		height: auto;
 	}
 }
 
