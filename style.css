@@ -596,7 +596,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 }
 
-@media only screen and (max-device-width: 1200px) and (max-width : 1200px) {
+@media only screen and (max-device-width: 1200px) {
 	.hand-container {
 		display: none;
 	}
