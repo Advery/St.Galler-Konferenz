@@ -530,6 +530,7 @@ span > a{
 span > a:hover{
 	font-size: 2rem;
 	color: rgba(255,255,255,.7);
+	text-decoration: none;
 }
 .uk-button-default{
 	background-color: white;
