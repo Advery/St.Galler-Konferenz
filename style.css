@@ -934,6 +934,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.uk-offcanvas-flip .uk-open > .uk-offcanvas-bar {
 		padding-top: 10rem;
 		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	.uk-margin-medium-right {
     		margin-right: 2rem!important;
