@@ -593,7 +593,6 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	
 	footer {
 		padding: 2.5rem 5rem;
-		height: auto;
 	}
 }
 
@@ -739,7 +738,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		padding: 2.5rem 0;
 	}
 	footer {
- 	height: 24rem;
+ 	height: auto;
   	background-color: #003E57;
 	color: white;
 	padding: 5rem 14rem;
