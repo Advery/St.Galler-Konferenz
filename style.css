@@ -177,7 +177,7 @@ border-radius: 50%;
 
 .uk-offcanvas-bar{
 	width: 100vw;
-	background: #003E57;
+	background: rgba(0, 62, 87, 0.95);
 	padding: 4.0rem 4.0rem;
 	left: -100vw;
 }
