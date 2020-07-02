@@ -232,7 +232,7 @@ border-radius: 50%;
 .uk-nav > li > a.active {
 	color: #FCCC97;
 }
-.menu-burger {
+.menu-open {
 width: 5.8rem;
 }
 .menu-close {
