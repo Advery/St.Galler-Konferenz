@@ -232,6 +232,12 @@ border-radius: 50%;
 .uk-nav > li > a.active {
 	color: #FCCC97;
 }
+.menu-burger {
+width: 5.8rem;
+}
+.menu-close {
+width: 4.2rem;
+}
 
 
 /**** Layout ****/
