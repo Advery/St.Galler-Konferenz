@@ -1057,7 +1057,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0 0 1.5rem 0!important;
 	}
 	footer {
-    		padding: 2.5rem 0 !important;
+    		padding: 2.5rem 0;
 	}
 	footer .uk-grid > * {
 		padding: 0 1.5rem !important;
