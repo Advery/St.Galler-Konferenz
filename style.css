@@ -477,11 +477,13 @@ color: #FCCC97;
 .bemerkung {
 	margin-left: calc(33% - 1.5rem);
 	font-size: 2rem;
+	line-height: 2.5rem;
 	margin-top: 0.5rem;
 	margin-bottom: 0;
 }
 .bem0 {
 	margin-left: 0;
+	margin-top: 1.5rem;
 }
 .form-beschreibung {
 	margin-bottom: 0.5rem;
