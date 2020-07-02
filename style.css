@@ -351,7 +351,7 @@ margin-bottom: 0;
 .referenten {
     display: flex;
     width: 100%;
-    border-bottom: 3px solid #003E57;
+    /*border-bottom: 3px solid #003E57;*/
     padding: 0 0 1.8rem 0;
     margin: 5.7rem 0 0 0;
 }
