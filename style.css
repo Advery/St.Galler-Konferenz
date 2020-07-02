@@ -486,6 +486,11 @@ color: #FCCC97;
 .form-beschreibung {
 	margin-bottom: 0.5rem;
 }
+.labelfett {
+	font-size: 2.5rem;
+	color: #003E57;
+	font-weight: 700;
+}
 
 
 
