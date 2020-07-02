@@ -184,7 +184,7 @@ border-radius: 50%;
 
 .uk-offcanvas-flip .uk-offcanvas-bar {
   	left: auto;
-  	right: -100vw;	
+  	right: -100vw;
 }
 
 .uk-offcanvas-flip .uk-open > .uk-offcanvas-bar {
@@ -317,7 +317,7 @@ a.uk-button:hover {
 }
 .uk-button-large {
   padding: 1.6rem 2.2rem;
-min-width: 21rem;	
+min-width: 21rem;
 }
 
 /**** Programm ****/
@@ -393,7 +393,7 @@ input.invalid {
   width: 15px;
   margin: 0 2px;
   background-color: #bbbbbb;
-  border: none;  
+  border: none;
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
@@ -422,7 +422,7 @@ label {
 }
 .form-group {
 display: flex;
-margin-top: 5rem;	
+margin-top: 5rem;
 }
 .control-label {
 width: calc(33% - 3rem);
@@ -444,7 +444,7 @@ padding-top: 0.5rem;
 .form-control {
 padding: 0.3rem 1.5rem 0 1.5rem;;
 font-size: 2.5rem;
-height: 5rem;	
+height: 5rem;
 color: #003E57;
 border: none;
 width: 67%;
@@ -464,7 +464,7 @@ option:disabled{
 .trennlinie-ws {
 border-bottom: 0.3rem solid #003E57;
 padding-bottom: 1rem;
-width: calc(100% - 1.5rem);	
+width: calc(100% - 1.5rem);
 }
 .alert-danger {
 background: #003E57;
@@ -581,13 +581,13 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 }
 
 
-@media only screen and (min-device-width : 1600px) and (max-device-width : 1920px) {
+@media only screen and (min-width : 1600px) and (max-width : 1920px) {
      hand-container {
         max-width: 70%;
     }
 }
 
-@media only screen and (max-device-width : 1600px) {
+@media only screen and (max-width : 1600px) {
 	h2 {
 		white-space: normal;
 	}
@@ -596,13 +596,13 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 }
 
-@media only screen and (min-device-width : 1200px) and (max-device-width : 1865px) {
+@media only screen and (min-width : 1200px) and (max-width : 1865px) {
 	footer div div a:first-child {
 		margin-bottom: 2.5rem;
 	}
 }
 
-@media only screen and (min-device-width : 1200px) and (max-device-width : 1600px) {
+@media only screen and (min-width : 1200px) and (max-width : 1600px) {
    .hand-container {
    		max-width: 38%;
 	}
@@ -617,18 +617,18 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 }
 
-@media only screen and (min-device-width : 960px) and (max-device-width : 1200px) {
+@media only screen and (min-width : 960px) and (max-width : 1200px) {
     .uk-grid>* {
     	padding-left: 30px;
     	padding-right: 30px;
-    }	
-	
+    }
+
 	footer {
 		padding: 2.5rem 5rem;
 	}
 }
 
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 	.hand-container {
 		display: none;
 	}
@@ -691,18 +691,18 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 2rem 0 1rem 0!important;
 		padding: 0!important;
 	}
-		
+
 	.hauptspalte-breit .page-wrapper div:nth-child(3) {
 		padding: 0;
 	}
-		
+
 	p {
 	    margin: 1rem 0 0 0!important;
 	    padding: 0!important;
 	}
 
 	.uk-navbar-item {
-    		
+
 	}
 	.uk-navbar-toggle{
     		padding-right: 0rem;
@@ -722,7 +722,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
     		margin-right: 2rem!important;
 	}
 	.uk-offcanvas-bar .uk-nav-default > li > a {
-    		
+
 	}
 	.uk-accordion-title {
 		font-weight: 500;
@@ -738,19 +738,19 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		border-bottom: 0.1rem solid #003E57;
 		padding-bottom: 0.25rem;
 	}
-		
+
 	.referenten-beschreibung {
 		width: 100%;
 	}
-	
+
 	.hauptspalte-breit .referenten {
 	    border-bottom: none;
 	}
-		
+
 	.hauptspalte-breit {
-		padding: 0 3rem;	
+		padding: 0 3rem;
 	}
-		
+
 	.ohnelinie .referenten-name {
 		margin-right: 3rem;
 	}
@@ -763,7 +763,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		padding: 0 2.5rem !important;
 		width: 100%;
 		display: flex;
-		flex-direction: column;	
+		flex-direction: column;
 	}
 	footer {
 		height: auto;
@@ -809,12 +809,12 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 	footer .uk-grid .uk-first-column a {
 		padding: 0;
-		width: 10rem;
+		/* width: 10rem;
 		margin: 0 2.5rem 0 0;
 		height: 3rem;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: center; */
 		font-size: 1.5rem;
 	}
 	footer .uk-grid .uk-first-column:last-child a:first-child {
@@ -823,7 +823,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0 0 0 0;
 	}
-	
+
 	footer .uk-grid .uk-first-column img {
 		width: 15rem;
 		margin: 0.5rem 0 0 0;
@@ -832,14 +832,14 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		padding: 0!important;
 		width: 100%;
 		display: flex;
-		flex-direction: column;	
+		flex-direction: column;
 	}
 	* + .uk-grid-margin, .uk-grid + .uk-grid, .uk-grid > .uk-grid-margin {
    	 margin-top: 0;
 	}
 }
 
-@media only screen and (max-device-width: 960px) {
+@media only screen and (max-width: 960px) {
 	.hand-container {
 		display: none;
 	}
@@ -990,26 +990,26 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	    border-bottom: 0.1rem solid #003E57;
 	    padding-bottom: 0.25rem;
 	}
-	
+
 	.uk-padding-large.div-content > div {
     	border-right: none!important;
 	}
-	
+
 	.hauptspalte-breit .referenten {
 		display: flex;
 		flex-direction: column;
 		border-bottom: none;
 	}
-	
+
 	.hauptspalte-breit .referenten .referenten-name {
 		width: 100%;
 	}
-	
+
 	.hauptspalte-breit {
 		padding: 0;
 	}
 	.hauptspalte-breit p:first-child {
-		
+
 	}
 	.referenten:nth-of-type(3) {
 		margin-top: 3.5rem;
@@ -1017,7 +1017,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.referenten p {
 		margin: 0 0 1.5rem 0!important;
 	}
-	
+
 	.referenten-beschreibung {
 		margin: 0;
 		width: 100%;
@@ -1031,11 +1031,79 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 }
 
-@media only screen and (max-device-width: 640px) {
+@media only screen and (max-width: 640px) {
 	.page-wrapper {
 		height: calc(100% - 10rem);
 		margin: 0;
+    padding-bottom: 5rem;
 	}
+  h2 {
+    font-size: 3.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+  p a {
+    border-bottom-width: 0.1rem;
+  }
+  ul.liste-in-text {
+    margin-top: 0.3rem;
+  }
+  .tab li, .alert-danger li {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+  .bemerkung {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    margin-left: 0;
+  }
+  label {
+    font-size: 1.6rem;
+  }
+  .radio {
+    margin-top: 1rem;
+  }
+  [type="radio"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+  .form-group {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  select {
+    width: 100% !important;
+  }
+  .form-control {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .labelfett {
+    font-size: 1.6rem;
+  }
+  .tab-sel-workshops .control-label {
+    width: 100%;
+  }
+  .tab-sel-workshops select {
+    width: 100% !important;
+  }
+  .uk-button-large {
+    padding: 1rem 1.5rem;
+    min-width: 17rem;
+  }
+  .uk-button-primary {
+    background-color: #003E57;
+    font-size: 2rem;
+    text-transform: none;
+    font-weight: 400;
+  }
+  
+  .uk-margin-medium-right {
+    margin-right: 0 !important;
+  }
 	.uk-container-expand {
 	    width: 100%;
 	    margin: 0;
@@ -1048,35 +1116,34 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0;
 		padding: 0;
 	}
-
+  .hauptspalte-breit > .workshop-liste {
+    margin-top: 3rem;
+  }
+  .workshop-liste .referenten-name {
+    margin-bottom: 0;
+  }
 	.referenten-name {
 		display: flex;
 		justify-content: center;
+    margin-bottom: 1.5rem;
 	}
 	.referenten-beschreibung p {
-		margin: 0 0 1.5rem 0!important;
+		margin: 0 0 0 0!important;
 	}
+  .programm-punkt {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .programm-beschreibung, .programm-zeit {
+    width: 100%;
+    margin: 0;
+  }  
 	footer {
     		padding: 2.5rem 0;
 	}
-	footer .uk-grid > * {
-		padding: 0 1.5rem !important;
-		width: 100%;
-		display: flex;
-		flex-direction: column;	
-	}
-	footer .uk-grid > * {
-		padding: 0!important;
-		width: 100%;
-	}
-	footer .uk-grid .uk-first-column a {
-		padding: 0;
-		/* width: 10rem;
-		height: 3rem;
-		display: flex;
-		align-items: center;
-		justify-content: center; */
-	}
+  footer a.uk-button-default {
+    padding: 0 1.5rem !important;
+  }
 	footer .uk-grid > * {
     		padding: 0 1.5rem !important;
 	}
