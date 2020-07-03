@@ -768,15 +768,12 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		display: flex;
 		flex-direction: column;
 	}
-	footer {
-		height: auto;
-		padding: 2.5rem 0;
-	}
+
 	footer {
  	height: auto;
   	background-color: #003E57;
 	color: white;
-	padding: 5rem 14rem;
+	padding: 5rem 10.5rem;
 	display: flex;
 	align-items: center;
 	position: static;
