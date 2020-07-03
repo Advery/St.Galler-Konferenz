@@ -1032,6 +1032,9 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	footer {
     		padding: 2.5rem 5rem;
 	}
+	footer a.uk-button-default {
+    		padding: 0 1.5rem !important;
+	}
 }
 
 @media only screen and (max-width: 640px) {
