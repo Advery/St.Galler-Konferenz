@@ -1180,4 +1180,8 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	footer .uk-grid > * {
     		padding: 0 1.5rem !important;
 	}
+	.referenten-name {
+	    display: flex;
+	    justify-content: center;
+	}
 }
