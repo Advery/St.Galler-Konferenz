@@ -567,6 +567,9 @@ a.uk-button-default:hover {
   border: none;
   background-color: rgba(255, 255, 255, 0.7);
 }
+.radio label {
+	display: flex;
+}
 
 footer .uk-grid .uk-first-column a:last-child {
 	margin-top: 0.5rem;
@@ -640,6 +643,12 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	p {
 	    font-size: 2rem;
 	    line-height: 2.7rem;
+	}
+	.liste-in-text {
+		margin-top: 3rem;
+	}
+	.liste-in-text li {
+		font-size: 2rem;
 	}
 	.uk-accordion-title {
 		font-size: 1.5rem;
@@ -1067,6 +1076,12 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	}
 }
 
+@media only screen and (min-width: 640px) {
+	.radio label i {
+		margin-left: 2.5rem;
+	}
+}
+
 @media only screen and (max-width: 640px) {
 	.page-wrapper {
 		height: calc(100% - 10rem);
@@ -1176,6 +1191,9 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	    width: 100%;
 	    margin: 0;
 	  }  
+	ul.liste-in-text {
+    		margin-top: 1.5rem;
+	}
 	footer {
     		padding: 2.5rem 0;
 	}
