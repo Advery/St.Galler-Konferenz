@@ -1011,6 +1011,11 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.hauptspalte-breit p:first-child {
 
 	}
+	.referenten-name {
+		display: flex;
+		justify-content: center;
+    		margin-bottom: 1.5rem;
+	}
 	.referenten:nth-of-type(3) {
 		margin-top: 3.5rem;
 	}
@@ -1128,11 +1133,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
   .workshop-liste .referenten-name {
     margin-bottom: 0;
   }
-	.referenten-name {
-		display: flex;
-		justify-content: center;
-    margin-bottom: 1.5rem;
-	}
+
 	.referenten-beschreibung p {
 		margin: 0 0 0 0!important;
 	}
