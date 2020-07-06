@@ -1137,9 +1137,6 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		justify-content: center;
     		margin-bottom: 1.5rem;
 	}
-	.referenten-beschreibung p {
-		margin: 0 0 0 0!important;
-	}
 	  .programm-punkt {
 	    flex-direction: column;
 	    margin-bottom: 2rem;
