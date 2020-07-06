@@ -1012,7 +1012,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 
 	}
 	.referenten-name img {
-    		margin-bottom: 1.5rem;
+    		margin-bottom: 3rem;
 	}
 
 	.referenten:nth-of-type(3) {
@@ -1132,11 +1132,7 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	  .workshop-liste .referenten-name {
 	    margin-bottom: 0;
 	  }
-	.referenten-name {
-		display: flex;
-		justify-content: center;
-    		margin-bottom: 1.5rem;
-	}
+
 	  .programm-punkt {
 	    flex-direction: column;
 	    margin-bottom: 2rem;
