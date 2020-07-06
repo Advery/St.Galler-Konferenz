@@ -638,7 +638,10 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	    font-size: 2rem;
 	    line-height: 2.7rem;
 	}
-	
+	.uk-accordion-title {
+		font-size: 1.5rem;
+		margin-top: 1.5rem;
+	}
 	footer {
 		padding: 2.5rem 5rem;
 	}
