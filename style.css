@@ -1011,11 +1011,10 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.hauptspalte-breit p:first-child {
 
 	}
-	.referenten-name {
-		display: flex;
-		justify-content: center;
+	.referenten-name img {
     		margin-bottom: 1.5rem;
 	}
+
 	.referenten:nth-of-type(3) {
 		margin-top: 3.5rem;
 	}
@@ -1127,30 +1126,34 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		margin: 0;
 		padding: 0;
 	}
-  .hauptspalte-breit > .workshop-liste {
-    margin-top: 3rem;
-  }
-  .workshop-liste .referenten-name {
-    margin-bottom: 0;
-  }
-
+	  .hauptspalte-breit > .workshop-liste {
+	    margin-top: 3rem;
+	  }
+	  .workshop-liste .referenten-name {
+	    margin-bottom: 0;
+	  }
+	.referenten-name {
+		display: flex;
+		justify-content: center;
+    		margin-bottom: 1.5rem;
+	}
 	.referenten-beschreibung p {
 		margin: 0 0 0 0!important;
 	}
-  .programm-punkt {
-    flex-direction: column;
-    margin-bottom: 2rem;
-  }
-  .programm-beschreibung, .programm-zeit {
-    width: 100%;
-    margin: 0;
-  }  
+	  .programm-punkt {
+	    flex-direction: column;
+	    margin-bottom: 2rem;
+	  }
+	  .programm-beschreibung, .programm-zeit {
+	    width: 100%;
+	    margin: 0;
+	  }  
 	footer {
     		padding: 2.5rem 0;
 	}
-  footer a.uk-button-default {
-    padding: 0 1.5rem !important;
-  }
+ 	 footer a.uk-button-default {
+    		padding: 0 1.5rem !important;
+  	}
 	footer .uk-grid > * {
     		padding: 0 1.5rem !important;
 	}
