@@ -625,6 +625,9 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+	.uk-navbar-item > a {
+    		font-size: 2rem;
+	}
 	h1 {
 		font-size: 7rem;
 	}
