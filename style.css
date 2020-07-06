@@ -1169,6 +1169,9 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	  }
 	  .programm-beschreibung, .programm-zeit {
 	    width: 100%;
+	  }
+	  .programm-beschreibung {
+	    width: 100%;
 	    margin: 0;
 	  }  
 	footer {
