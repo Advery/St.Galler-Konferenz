@@ -1021,10 +1021,13 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	.referenten p {
 		margin: 0 0 1.5rem 0!important;
 	}
-
 	.referenten-beschreibung {
 		margin: 0;
 		width: 100%;
+	}
+	.programm-zeit {
+	    width: 100%;
+	    margin: 0 0 1rem 0;
 	}
 	footer .uk-grid .uk-first-column img {
 		width: 10rem;
@@ -1132,6 +1135,10 @@ footer .uk-grid .uk-first-column:last-child a:last-child {
 	  .workshop-liste .referenten-name {
 	    margin-bottom: 0;
 	  }
+	.programm-zeit {
+	    width: 100%;
+	    margin: 0 0 1rem 0;
+	}
 
 	  .programm-punkt {
 	    flex-direction: column;
