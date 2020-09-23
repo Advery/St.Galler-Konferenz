@@ -17,8 +17,8 @@ body {
   font-family: 'DM Sans', sans-serif;
   color: #003E57;
 }
-.stoerer-ausgebucht {
-	width: 250px;
+img.stoerer-ausgebucht {
+	width: 25rem;
 	position: absolute;
 	top: 0;
 	left: 50%;
