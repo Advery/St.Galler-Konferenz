@@ -17,7 +17,12 @@ body {
   font-family: 'DM Sans', sans-serif;
   color: #003E57;
 }
-
+.stoerer-ausgebucht {
+	width: 250px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
 .page-wrapper {
   background-color: #FCCC97;
   height: calc(100% - 10rem);
