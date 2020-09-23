@@ -22,6 +22,7 @@ body {
   background-color: #FCCC97;
   height: calc(100% - 10rem);
   margin: 5rem 5rem 0 5rem;
+	position: relative;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li {
